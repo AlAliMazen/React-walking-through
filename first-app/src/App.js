@@ -5,6 +5,7 @@ import FunctionalGreetingWithProps from './components/FunctionalGreetingsWithPro
 import StatefulGreeting from './components/StatefulGreeting';
 import EventsFunctional from './components/EventsFunctional';
 import EventsClass from './components/EventsClass';
+import EventBinding from './components/EventBinding';
 
 
 
@@ -16,6 +17,7 @@ function App() {
       <StatefulGreeting greeting="nice to see you" name="Mazen"/>
       <EventsFunctional/>
       <EventsClass/>
+      <EventBinding/>
 
     </div>
   );
