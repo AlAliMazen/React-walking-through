@@ -6,6 +6,8 @@ import StatefulGreeting from './components/StatefulGreeting';
 import EventsFunctional from './components/EventsFunctional';
 import EventsClass from './components/EventsClass';
 import EventBinding from './components/EventBinding';
+import ConditionalRenderingClass from './components/ConditionalRenderingClass';
+import ConditionalRenderingFunction from './components/ConditionalRenderingFunction';
 
 
 
@@ -18,7 +20,9 @@ function App() {
       <EventsFunctional/>
       <EventsClass/>
       <EventBinding/>
-
+      <h1>Conditonal Rendering </h1>
+      <ConditionalRenderingClass/>
+      <ConditionalRenderingFunction loading="false"/>
     </div>
   );
 }
