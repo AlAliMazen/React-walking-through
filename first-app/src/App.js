@@ -9,6 +9,8 @@ import EventBinding from './components/EventBinding';
 import ConditionalRenderingClass from './components/ConditionalRenderingClass';
 import ConditionalRenderingFunction from './components/ConditionalRenderingFunction';
 import NestingComponent from './components/NestingComponent';
+import MehtodsAsPropsChild from './components/MehtodsAsPropsChild';
+import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 
 
 
@@ -25,6 +27,8 @@ function App() {
       <ConditionalRenderingClass/>
       <ConditionalRenderingFunction loading="false"/>
       <NestingComponent/>
+      <h1>Updating Parent from Child</h1>
+      <MethodsAsPropsParent/>
     </div>
   );
 }
