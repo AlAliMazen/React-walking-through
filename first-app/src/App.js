@@ -11,6 +11,7 @@ import ConditionalRenderingFunction from './components/ConditionalRenderingFunct
 import NestingComponent from './components/NestingComponent';
 import MehtodsAsPropsChild from './components/MehtodsAsPropsChild';
 import MethodsAsPropsParent from './components/MethodsAsPropsParent';
+import RenderingLists from './components/RenderingLists';
 
 
 
@@ -29,6 +30,8 @@ function App() {
       <NestingComponent/>
       <h1>Updating Parent from Child</h1>
       <MethodsAsPropsParent/>
+      <h1>Rendering List of Items</h1>
+      <RenderingLists/>
     </div>
   );
 }
