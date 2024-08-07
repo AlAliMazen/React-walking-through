@@ -12,6 +12,7 @@ import NestingComponent from './components/NestingComponent';
 import MehtodsAsPropsChild from './components/MehtodsAsPropsChild';
 import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 import RenderingLists from './components/RenderingLists';
+import LifeCylesCDM from './components/LifeCylesCDM';
 
 
 
@@ -32,6 +33,9 @@ function App() {
       <MethodsAsPropsParent/>
       <h1>Rendering List of Items</h1>
       <RenderingLists/>
+      <h1>Component Life Cycle</h1>
+      <LifeCylesCDM/>
+      
     </div>
   );
 }
