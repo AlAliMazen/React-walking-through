@@ -14,6 +14,7 @@ import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 import RenderingLists from './components/RenderingLists';
 import LifeCylesCDM from './components/LifeCylesCDM';
 import LifeCylesCDU from './components/LifeCylesCDU';
+import LifeCyclesCWU from './components/LifeCyclesCWU';
 
 
 
@@ -39,7 +40,9 @@ function App() {
       <hr/>
       <h1>Component DID Update</h1>
       <LifeCylesCDU/>
-      
+      <hr/>
+      <LifeCyclesCWU/>
+
     </div>
   );
 }
