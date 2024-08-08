@@ -13,6 +13,7 @@ import MehtodsAsPropsChild from './components/MehtodsAsPropsChild';
 import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 import RenderingLists from './components/RenderingLists';
 import LifeCylesCDM from './components/LifeCylesCDM';
+import LifeCylesCDU from './components/LifeCylesCDU';
 
 
 
@@ -35,6 +36,9 @@ function App() {
       <RenderingLists/>
       <h1>Component Life Cycle</h1>
       <LifeCylesCDM/>
+      <hr/>
+      <h1>Component DID Update</h1>
+      <LifeCylesCDU/>
       
     </div>
   );
