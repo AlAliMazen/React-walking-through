@@ -16,6 +16,7 @@ import LifeCylesCDM from './components/LifeCylesCDM';
 import LifeCylesCDU from './components/LifeCylesCDU';
 import LifeCyclesCWU from './components/LifeCyclesCWU';
 import ControlledForm from './components/ControlledForm';
+import UncontrolledForm from './components/UncontrolledForm';
 
 
 
@@ -46,6 +47,9 @@ function App() {
       <hr/>
       <h1>Controlled Form</h1>
       <ControlledForm/>
+      <hr/>
+      <h1>Uncontrolled Form</h1>
+      <UncontrolledForm/>
     </div>
   );
 }
