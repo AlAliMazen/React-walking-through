@@ -15,6 +15,7 @@ import RenderingLists from './components/RenderingLists';
 import LifeCylesCDM from './components/LifeCylesCDM';
 import LifeCylesCDU from './components/LifeCylesCDU';
 import LifeCyclesCWU from './components/LifeCyclesCWU';
+import ControlledForm from './components/ControlledForm';
 
 
 
@@ -42,7 +43,9 @@ function App() {
       <LifeCylesCDU/>
       <hr/>
       <LifeCyclesCWU/>
-
+      <hr/>
+      <h1>Controlled Form</h1>
+      <ControlledForm/>
     </div>
   );
 }
