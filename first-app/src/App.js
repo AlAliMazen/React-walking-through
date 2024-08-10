@@ -17,6 +17,7 @@ import LifeCylesCDU from './components/LifeCylesCDU';
 import LifeCyclesCWU from './components/LifeCyclesCWU';
 import ControlledForm from './components/ControlledForm';
 import UncontrolledForm from './components/UncontrolledForm';
+import SearchBar from './components/SearchBar';
 
 
 
@@ -50,6 +51,10 @@ function App() {
       <hr/>
       <h1>Uncontrolled Form</h1>
       <UncontrolledForm/>
+      <hr/>
+      <h1>Filter search bar</h1>
+      <SearchBar/>
+
     </div>
   );
 }
